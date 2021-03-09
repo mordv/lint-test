@@ -1,4 +1,14 @@
-https://github.com/github/super-linter#how-to-use
+Все что нужно, скопировать директорию `.github` вместе с содержимым в свой проект. Можно сразу запушить в `master`.
+Теперь каждый pull request в `master` будет сопровождаться проверками качества кода (можно посмотреть в PR этого репозитория)
+![image](https://user-images.githubusercontent.com/32086218/110495237-e83d3d80-8126-11eb-8c4e-2b82d98344d7.png)
+![image](https://user-images.githubusercontent.com/32086218/110495293-f55a2c80-8126-11eb-9494-2443e75b8ce0.png)
+![image](https://user-images.githubusercontent.com/32086218/110496165-cee8c100-8127-11eb-88cd-c8ca686bf44e.png)
+
+[Тут](https://checkstyle.org/checks.html) можно найти объяснение на что ругается линтер. 
+
+
+[Репозиторий используемого github action](https://github.com/github/super-linter#how-to-use)
+
 ```
                               /@@#///////@@/(@//@%/(@.@(       @@
                           @@//////////////////////////////#*  @@@
